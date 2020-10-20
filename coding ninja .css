@@ -1,0 +1,197 @@
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+.topnav
+{
+ background-color: black;
+ color:white;
+ position: fixed;
+
+}
+.topnav a
+{
+    color: white;
+    text-decoration:none ;
+    font-size: 20px; 
+    padding:14px 16px;
+    display:block;
+    float: left;
+    
+
+}
+.topnav :hover
+{
+    color:gold;
+    text-decoration: underline;
+   
+}
+.header
+{
+    background: linear-gradient(rgb( 0,0,0,0.8),rgb(250,250,250,0.8)),
+    url("https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    height: 100vh;
+    font-size: 70px;
+    text-align: center; 
+    padding: 20px;
+    
+}
+.header h1
+{
+    margin-top: 20%;
+    text-transform: uppercase;
+    text-decoration-style: wavy ;
+}
+.row::after
+{
+    content:"" ;
+    display: table;
+    clear: both;
+}
+.column
+{
+    float: left;
+    width :50%;
+    
+}
+    
+
+#menu
+{
+    padding: 10%;
+}
+#menu h1
+{
+    padding :3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-emphasis:none;
+    text-decoration:underline;
+    font-weight: bold; 
+    margin: 2px;
+  
+    
+}
+#menu  h5
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-emphasis:none;
+    text-decoration:none;
+    font-weight: bold;
+    text-align: auto;
+    margin-top: 5%;
+}
+ 
+
+#menu p
+{
+    font-size: 20px;
+    margin:18px;
+    padding-top: 2%;
+}
+#menu img
+{
+ width: 90%;
+ height:540px ;
+ transition: width 2s;
+ 
+}
+menu img :hover{
+    width: 10px;
+}
+#about
+{
+    padding: 10%;
+}
+#about h1
+{
+    padding :3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+     text-decoration: underline;
+}
+#about h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;       
+}
+#about p
+{
+    font-size: 25px;
+    text-justify: inter-word;
+    text-align: justify;
+}
+#about img
+{
+    width: 90%;
+    height:540px;
+}
+#conatct
+{
+    padding: 10%;
+    padding-left: 120px;
+   
+
+}
+#contact h1
+{
+    padding :3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-decoration: underline;
+    
+    
+}
+#contact form 
+{   
+    padding:20px;
+    padding-left: 20px;
+    align-content: center; 
+    border: 3px solid blue;
+    border-color: royalblue;
+    width :70%;
+     
+}
+#contact p
+{     font-size:25px;
+    text-justify: inter-word;
+    text-align: justify;
+    padding: 3.5%;
+    margin: 2px;
+
+}
+#lists
+{
+ padding-left: 150px;
+}
+input{
+ 
+ width : 340px;
+ height:50px;
+ font-size :20px;
+ margin:1%;
+ border-color: royalblue;
+ border-radius: 10px;
+ padding: 10px;
+ }
+ .indicator{
+     background-color: red;
+     color: white;
+     border-radius: 20px;
+     padding:2%;
+     
+     text-decoration: inherit;
+ }
+ .indi{
+     background-color: rgb(6, 64, 253);
+     border-radius:10px ;
+     padding:0%;
+ }
