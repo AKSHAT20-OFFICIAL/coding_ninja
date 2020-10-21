@@ -44,7 +44,7 @@
     background-repeat: no-repeat;
     color: whitesmoke;
     height: 100vh;
-    font-size: 70px;
+    font-size: 70vw;
     text-align: center; 
     padding: 20px;
     
@@ -77,7 +77,7 @@
 {
     padding :3%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 45vw;
     text-emphasis:none;
     text-decoration:underline;
     font-weight: bold; 
