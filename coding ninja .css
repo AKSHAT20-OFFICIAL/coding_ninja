@@ -166,6 +166,8 @@ menu img :hover{
     border: 3px solid blue;
     border-color: royalblue;
     width :70%;
+ background-color:grey;
+ border-radiues:10px
      
 }
 #contact p
@@ -180,7 +182,8 @@ menu img :hover{
 {
  padding-left: 150px;
  padding-top:30px;
- background-color:grey;
+ 
+ 
 }
 input{
  
