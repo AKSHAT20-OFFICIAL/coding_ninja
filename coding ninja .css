@@ -12,16 +12,16 @@
   font-size:35px;
   
  }
- input
- { width : ;30%
- height:50px;
- font-size :10px;
- margin:1%;
- border-color: red;
- bottom-border:1px;
- border-radius: 10px;
- padding: 10px;
-  } 
+ #contact form 
+{   
+    padding:20px;
+    padding-left: 20px;
+    align-content: center; 
+    border: 3px solid blue;
+    border-color: royalblue;
+    width :20%;
+ background:linear-gradient(rgb( 0,255,255,0.7),rgb(250,250,250,0.8));
+ border-radiues:10px;}
  #lists{ padding:50px;}
 }
 .topnav
